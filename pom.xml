@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>backgrid</artifactId>
-    <version>0.3.5-1-SNAPSHOT</version>
+    <version>0.3.5-1</version>
     <name>Backgrid.js</name>
     <description>WebJar for Backgrid.js</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/backgrid</url>
         <connection>scm:git:https://github.com/webjars/backgrid.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/backgrid.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>backgrid-0.3.5-1</tag>
     </scm>
     
     <dependencies>
