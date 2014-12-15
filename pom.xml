@@ -68,7 +68,9 @@
                     "backgrid": "backgrid"
                 },
                 "shim": {
-                    "backgrid": [ "jquery", "underscorejs", "backbonejs" ]
+                    "backgrid": {
+                        "deps": [ "jquery", "underscorejs", "backbonejs" ],
+                        "exports": "Backgrid"
                 }
             }
         </requirejs>
