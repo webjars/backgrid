@@ -61,7 +61,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <upstream.version>0.3.5</upstream.version>
         <upstream.url>https://github.com/wyuenho/backgrid/archive</upstream.url>
-        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
+        <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
             {
                 "paths": {
@@ -71,6 +71,7 @@
                     "backgrid": {
                         "deps": [ "jquery", "underscorejs", "backbonejs" ],
                         "exports": "Backgrid"
+                    }
                 }
             }
         </requirejs>
